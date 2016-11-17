@@ -75,3 +75,44 @@ blockquote {
   color: #999;
   line-height: 1.5rem;
 }
+
+@media only screen and (min-width: 38rem) {
+
+  html {
+    font-size: 110%;
+  }
+
+  article h1 {
+    padding-top: .8rem;
+  }
+
+  body {
+    max-width: 38rem;
+  }
+
+  article {
+    margin-left: 0;
+    padding-right: 0;
+    margin-bottom: 1.4rem;
+  }
+
+  article p {
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+  }
+
+  blockquote {
+    max-width: 24em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article ol {
+    margin-bottom: 1.4rem;
+  }
+
+  article li {
+    line-height: 1.4;
+  }
+
+}
